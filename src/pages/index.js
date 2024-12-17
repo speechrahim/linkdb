@@ -89,12 +89,7 @@ const Home = () => {
                 <Hero />
                 <GetLink />
                 <div className='pb-28 py-24 sm:py-40 sm:pb-0 px-4' >
-                    <div className="mx-auto text-center py-9 sm:py-16 max-w-[320px] sm:max-w-4xl">
-                        <h1 className="mx-auto  font-display text-4xl font-bold tracking-normal text-gray-300 sm:text-5xl text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white ">
-                            Generated links
-                        </h1>
-
-                    </div>
+                    
                     <div className='grid justify-center mx-auto space-y-3'>
                         <ShortLinks shortedLinks={gitUrl} />
                         {urls.map((url, index) => (
@@ -107,9 +102,7 @@ const Home = () => {
                 </div >
                 <div className='pb-28 py-20 sm:py-32' >
                     <div className="mx-auto text-center py-9 sm:py-16 max-w-[320px] sm:max-w-4xl">
-                        <h1 className="mx-auto  font-display text-4xl font-bold tracking-normal text-gray-300 sm:text-5xl text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white py-4">
-                            Powerful Access Control
-                        </h1>
+                        
 
                     </div>
                     <div >
